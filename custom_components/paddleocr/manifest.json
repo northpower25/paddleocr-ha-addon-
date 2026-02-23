@@ -1,0 +1,10 @@
+{
+  "domain": "paddleocr",
+  "name": "PaddleOCR",
+  "version": "0.1.0",
+  "documentation": "https://github.com/northpower25/paddleocr-ha-addon",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@northpower25"],
+  "iot_class": "local_push"
+}
