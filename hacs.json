@@ -1,0 +1,9 @@
+{
+  "name": "PaddleOCR",
+  "content_in_root": false,
+  "domains": ["integration"],
+  "homeassistant": "2022.12.0",
+  "zip_release": false,
+  "filename": "custom_components/paddleocr/manifest.json",
+  "render_readme": true
+}
