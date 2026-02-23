@@ -1,0 +1,19 @@
+{
+  "name": "PaddleOCR",
+  "version": "0.1.0",
+  "slug": "paddleocr",
+  "description": "Local PaddleOCR server for Home Assistant",
+  "arch": ["armv7", "arm64", "amd64"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "port": 8000,
+    "use_gpu": false,
+    "lang": "en"
+  },
+  "schema": {
+    "port": "int?",
+    "use_gpu": "bool?",
+    "lang": "str?"
+  }
+}
